@@ -1,0 +1,27 @@
+{
+  "name": "react-book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brightestPeng/react-book.git",
+  "author": "peng <997450807@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "start": "webpack --config ./chapter2/2.7.1/webpack.config.js",
+    "dev": "webpack-dev-server --config ./chapter2/2.7.1/webpack.config.js"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
